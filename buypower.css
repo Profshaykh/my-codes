@@ -1,0 +1,358 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+#example{
+    background-image:
+     url(https://thumbs.dreamstime.com/b/indian-woman-sitting-armchair-laptop-talks-cellphone-young-sit-looks-screen-phone-solve-business-phonecall-233973229.jpg);
+     background-size: 100% 430px;
+     background-repeat: no-repeat;
+     padding-bottom: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div{
+    margin-left: 130px;
+}   
+
+
+.logo{
+    width: 200px;
+}
+
+
+.right{
+    display: flex;
+    margin-right: 150px;
+    font-family: Arial;
+    color: white;
+    padding-top: 35px;
+    font-size: 12px;
+}
+
+.fqa{
+    padding-left: 15px;
+}
+
+button{
+    margin-left: 15px;
+    margin-top: -16px;
+    border-radius: 4px;
+}
+
+.unit{
+    color: black;
+    font-size: 16px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: rgb(148, 199, 71);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(253, 253, 253);
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 35px;
+    border: 1px solid rgb(39, 170, 39);    
+    border-radius:5px;
+}
+
+.dropbtn-content input{
+    color: black;
+    padding: 8px;
+    width: 180px;
+    border: none;
+    margin-top: 8px;
+}
+
+.dropbtn-content input:hover{background-color: rgb(224, 217, 203);}
+
+.dropdown:hover .dropbtn-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: rgb(247, 182, 18);
+}
+
+.pay{
+    background-color: rgb(247, 182, 18);
+    color: white;
+    border: none;
+    width: 120px;
+    margin-left: 50px;
+    height: 25px;
+    font-size: 18px;
+}
+
+.elect{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+h3{
+    margin: 0;
+    font-family: Arial;
+}
+
+p{
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+.input2{
+    width: 250px;
+    border: 1px solid rgb(46, 219, 46);
+    height: 30px;
+    margin-top: 6px;
+}
+
+input::placeholder{
+    padding-left: 8px;
+}
+
+.btn{
+    margin-top: 6px;
+    display: block;
+    width: 254px;
+    background-color:rgb(39, 170, 39);
+    margin-left: 2px;
+    height: 35px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: orange;
+}
+
+
+.help{
+    margin-top: 25px;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#example2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+.why{
+    padding-left: 150px;
+    font-family: Arial;
+}
+
+#example2{
+    padding-left: 150px;
+    font-family: arial;
+}
+
+.bl{
+    margin-bottom: 0;
+}
+
+.rite{
+    font-size: 13px;
+    color: gray;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+#example3{
+    background-color: orange;
+    width: 100%;
+    height: 650px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.us{
+    padding-left: 150px;
+    padding-top: 250px;
+    }
+
+    .wat{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 50px;
+        font-weight: bold;
+    }
+
+    .taw{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+    }
+
+    .pin{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    padding-left: 550px;
+    margin-top: -430px;
+    column-gap: 20px;
+    row-gap: 15px;
+}
+
+
+.div1{
+    width: 220px;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+
+.example4{
+    background-color: rgb(238, 244, 247);
+    display: inline-block;
+    width: 100%;
+    height: 480px;
+}
+
+.our{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.piv1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.piv{
+    width: 150px;
+}
+
+.pho{
+    text-align: center;
+}
+
+.ph{
+    width: 250px;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.dw{
+    padding-top: 40px;
+}
+
+.app{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.cl1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+}
+
+.cl2{
+    background-color: rgb(235, 245, 245);
+    height: 130px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.cl4{
+    margin-bottom: 40px;
+}
+
+.cl3{
+    background-color: rgb(63, 151, 63);
+    height: 130px;
+     text-align: center;
+    padding-top: 70px;
+}
+
+.bttn1{
+    position: absolute;
+    height: 31px;
+    border: none;
+}
+
+.bttn{
+    border: 0;
+    position: relative;
+    margin-left: 166px;
+    margin-top: 0px;
+    height: 33px;
+    border-radius: 0;
+    width: 95px;
+    background-color: blue;
+    color: white;
+}
+
+.last{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    padding-left: 150px;
+    padding-top: 20px;
+    height: 250px;
+}
+
+.last h3{
+    font-size: 12px;
+    padding-bottom: 25px;
+}
+
+.log1{
+    width: 150px;
+}
+
+.twit{
+    margin-left: 15px;
+    width: 30px;
+    margin-top: 10px;
+}
+
+.last2{
+    margin-left: 30px;
+}
+
+.last3{
+    margin-left: 40px;
+}
+
+.last4{
+    margin-left: -80px;
+}
+
+.last1{
+    font-size: 12px;
+    color: rgb(200, 230, 248);
+    margin-top: 15px;
+}
+
+
